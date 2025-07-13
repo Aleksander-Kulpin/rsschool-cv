@@ -8,21 +8,42 @@
 </head>
 <body>
   <div class="container">
-    <header>
-      <img src="avatar.jpg" alt="Aleksander's photo" class="photo">
-      <div class="header-info">
-        <h1>Aleksander Kulpin</h1>
-        <p><strong>City:</strong> Wolfsburg, Germany | <strong>Telephone:</strong> +48 XXX XXX XXX | <strong>E-mail:</strong> <a href="mailto:XXX@gmail.com">XXX@gmail.com</a></p>
-      </div>
-    </header>
+	<header>
+		<img src="avatar.jpg" alt="Aleksander's photo" class="photo">
+
+		<div class="header-content">
+			<div class="header-info">
+			<h1>Aleksander Kulpin</h1>
+			<ul class="contact-list">
+				<li><strong>City:</strong> Wolfsburg, Germany</li>
+				<li><strong>Telephone:</strong> +48 XXX XXX XXX</li>
+				<li>
+				<strong>E-mail:</strong>
+				<a href="mailto:XXX@gmail.com">XXX@gmail.com</a>
+				</li>
+			</ul>
+			</div>
+
+			<nav class="cv-nav">
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#other">Other</a></li>
+			</ul>
+			</nav>
+		</div>
+	</header>
     <main>
-      <section>
+      <section id="about">
         <h2>Software Developer</h2>
         <p>I have built several apps as an amateur using a no-code tool Bubble, which offers one of the best platforms for rapid development of software products. Now I’m dedicating myself to studying traditional programming in order to help my potential clients (most probably  small businesses) bring their ideas to life, delivering simple and cost-effective apps in minimal time.</p>
         <p>I have some experience with Bubble and Make no code tools and basic skills in HTML/CSS, JavaScript, Python, and SQL. Currently I’m studing in a coding school 42, working on projects in C language. I am eager to continue learning and I am interested in gaining new experience and contributing new projects to my portfolio.</p>
       </section>
 
-      <section>
+      <section id="projects">
         <h2>Projects (No-Code / Bubble)</h2>
         <article>
           <h3>Art Exchange</h3>
@@ -38,14 +59,35 @@
         </article>
       </section>
 
-      <section>
-        <h2>Programming Languages &amp; Tools</h2>
-        <p><strong>Languages:</strong> C, Python, JavaScript, SQL, HTML, CSS, Bash</p>
-        <p><strong>Frameworks &amp; Tools:</strong> Flask, Git, Bubble, Canvas</p>
+      <section id="skills">
+        <h2>Programming Languages</h2>
+		 <ul>
+            <li>C</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+			<li>Bash</li>
+          </ul>
+		<h2>Tools</h2>
+		 <ul>
+            <li>Flask</li>
+            <li>Git</li>
+            <li>Bubble</li>
+            <li>Canvas</li>
+          </ul>
       </section>
+	  <section class="code-section" id="code-example">
+ 	   <h2>Code Example</h2>
+			<pre><code>#include &lt;stdio.h&gt;
 
-      <section>
-        <h2>Code Examples</h2>
+			int main(void) 
+			{
+				printf("Hello, world!");
+				return (0);
+			}
+			</code></pre>
         <ul>
           <li><a href="https://github.com/Aleksander-Kulpin/my_appointments">MyAppointments App</a></li>
           <li><a href="https://github.com/Aleksander-Kulpin/my_finance">Mock Stock Trading App</a></li>
@@ -61,7 +103,7 @@
         </ul>
       </section>
 
-      <section>
+      <section id="experience">
         <h2>Professional Experience</h2>
         <article>
           <h3>42 School</h3>
@@ -85,7 +127,7 @@
         </article>
       </section>
 
-      <section>
+      <section id="education">
         <h2>Education</h2>
         <p><strong>University of London, UK</strong><br>Master’s in Accountancy (2018)</p>
       </section>
@@ -99,7 +141,7 @@
         </ul>
       </section>
 
-      <section>
+      <section id="other">
         <h2>Other Information</h2>
         <p><strong>Citizenship:</strong> Poland</p>
       </section>
