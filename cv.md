@@ -6,9 +6,9 @@
 
 ## Software Developer
 
-I’ve built several apps as an amateur using no-code tools Bubble, which I believe offers one of the best platforms for rapidly creating software products. Now I’m dedicating myself to studying traditional programming so I can help small businesses bring their ideas to life professionally, delivering simple, cost-effective apps in minimal time.
+I have built several apps as an amateur using a no-code tool Bubble, which offers one of the best platforms for rapid development of software products. Now I’m dedicating myself to studying traditional programming in order to help my potential clients (most probably  small businesses) bring their ideas to life, delivering simple and cost-effective apps in minimal time.
 
-I’ve created multiple Bubble applications and have foundational skills in HTML/CSS, JavaScript, Python, and SQL. Currently I’m deepening my knowledge through a coding school, working on projects in C. I’m eager to continue learning and contribute new projects to my portfolio.
+I have some experience with Bubble and Make no code tools and basic skills in HTML/CSS, JavaScript, Python, and SQL. Currently I’m studing in a coding school 42, working on projects in C language. I am eager to continue learning and I am interested in gaining new experience and contributing new projects to my portfolio.
 
 ---
 
@@ -22,8 +22,6 @@ A responsive web app connecting artists (painters, sculptors, etc.) with buyers.
 - Sellers can post profiles and images; buyers browse and message directly  
 - Early-user validation tool; future plans include payments, trading, analytics  
 - Email notifications via SendGrid  
-
-> More of my no-code work is available in my portfolio.
 
 ---
 
